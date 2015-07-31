@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_airlinequery"
+            android:checked="true"
+            android:icon="@drawable/ic_airplanemode_active_black_24dp"
+            android:title="@string/airlinequery"/>
+        <item
+            android:id="@+id/drawer_order"
+            android:icon="@drawable/ic_toc_black_24dp"
+            android:title="@string/order" />
+        <item
+            android:id="@+id/drawer_user"
+            android:icon="@drawable/ic_perm_identity_black_18dp"
+            android:title="@string/user" />
+        <item
+            android:id="@+id/drawer_helper"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="@string/helper" />
+    </group>
+</menu>

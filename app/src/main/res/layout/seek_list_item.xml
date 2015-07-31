@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip" >
+
+            <TextView
+                android:id="@+id/StartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09：10"
+                android:padding="3dip"/>
+
+            <TextView
+                android:id="@+id/ArriveTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10：30"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/Money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000"
+                android:padding="3dip"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip" >
+
+            <TextView
+                android:id="@+id/StartDrome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="哈尔滨太平机场"
+                android:padding="3dip"/>
+
+            <TextView
+                android:id="@+id/ArriveDrome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="北京首都机场"
+                android:padding="3dip" />
+
+            <TextView
+                android:id="@+id/Company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:text="东方航空" />
+
+            <TextView
+                android:id="@+id/Airlinecode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Md83745"/>
+            
+        </TableRow>
+   U
+    </TableLayout>
+
+</LinearLayout>
